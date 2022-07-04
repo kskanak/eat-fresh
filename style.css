@@ -27,7 +27,7 @@ body {
   color: #575757;
   width: 50%;
 }
-.order-btn {
+.btn {
   text-decoration: none;
   display: inline-block;
   background: #d43c0d;
@@ -37,10 +37,49 @@ body {
   font-size: 18px;
   font-weight: 700;
 }
-.top-banner-images {
+.top-banner-image {
   width: 50%;
 }
-.top-banner-images img {
+.top-banner-image img {
   width: 100%;
+  position: relative;
+  left: 65px;
 }
 /* top banner end */
+/* about me start */
+.about-me {
+  margin-top: 80px;
+  background: url(images/shapes/7.png);
+  height: 500px;
+}
+.main {
+  display: flex;
+}
+.about-image {
+  width: 50%;
+}
+.about-image img {
+  width: 80%;
+}
+.about-content {
+  width: 50%;
+  padding-top: 67px;
+}
+.about-content h3 {
+  font-size: 40px;
+  color: #575757;
+  position: relative;
+}
+.about-content h3::after {
+  position: absolute;
+  content: "";
+  top: 48px;
+  left: 79px;
+  width: 91px;
+  height: 5px;
+  background: #575757;
+}
+.about-content p {
+  margin-bottom: 50px;
+}
+/* about me end */
