@@ -1,3 +1,46 @@
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+/* main css begin */
+/* top banner start */
+.top-banner {
+  display: flex;
+  margin-top: 50px;
+}
+.top-banner-content {
+  width: 50%;
+}
+.top-banner-content h2 {
+  font-size: 50px;
+  color: #575757;
+  margin: 0;
+}
+.top-banner-content h2 span {
+  color: #db5410;
+}
+.top-banner-content h5 {
+  color: #575757;
+  width: 50%;
+}
+.order-btn {
+  text-decoration: none;
+  display: inline-block;
+  background: #d43c0d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.top-banner-images {
+  width: 50%;
+}
+.top-banner-images img {
+  width: 100%;
+}
+/* top banner end */
